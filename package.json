@@ -1,0 +1,21 @@
+{
+  "name": "puppeteer-test",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Tests using puppeteer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node --experimental-modules --es-module-specifier-resolution=node dist/index.js"
+  },
+  "author": "Antoine Lemarchand <an.lemarchand@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^2.0.0",
+    "typescript": "^3.7.2"
+  }
+}
